@@ -144,6 +144,15 @@ input[type='checkbox']:checked ~ .todo-text{
   color: var(--secondary-color);
 }
 
+#todo-list{
+  width: 100%;
+}
+
+#todo-list li{
+  display: flex;
+  gap: 20px;
+}
+
 @media(max-width: 500px){
   #add-button{
     position: unset;
@@ -165,7 +174,3 @@ input[type='checkbox']:checked ~ .todo-text{
   }
 }
 
-#todo-list li{
-  display: flex;
-  gap: 20px;
-}
