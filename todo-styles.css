@@ -146,8 +146,6 @@ input[type='checkbox']:checked ~ .todo-text{
 
 #todo-list{
   width: 100%;
-  border: 20px solid red;
-  
 }
 
 
