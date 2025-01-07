@@ -12,7 +12,7 @@
   }
 
   100%{
-    transform: translateY(15px);
+    transform: translateY(10px);
   }
 }
 
@@ -176,7 +176,7 @@ input[type='checkbox']:checked ~ .todo-text{
   #add-button{
     position: unset;
     width: 100%;
-    margin-top: 10px;
+    margin: 10px;
     padding: 15px;
     height: auto;
     
